@@ -1,7 +1,7 @@
 package ayds.winchester2.wikipediaexternal.data.wikipedia.tracks
 
 import ayds.winchester2.wikipediaexternal.data.wikipedia.WikipediaTrackService
-import ayds.winchester2.wikipediaexternal.data.wikipedia.entity.Info.ArtistInfo
+import ayds.winchester2.wikipediaexternal.data.wikipedia.entity.ArtistInfo
 import retrofit2.Response
 
 class WikipediaTrackServiceImpl(
