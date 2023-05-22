@@ -1,11 +1,11 @@
-package ayds.winchester2.wikipediadata.injector
+package ayds.winchester2.wikipediaexternal.injector
 
 
-import ayds.winchester2.wikipediadata.data.wikipedia.WikipediaTrackService
-import ayds.winchester2.wikipediadata.data.wikipedia.tracks.JsonToInfoResolver
-import ayds.winchester2.wikipediadata.data.wikipedia.tracks.WikipediaToInfoResolver
-import ayds.winchester2.wikipediadata.data.wikipedia.tracks.WikipediaTrackAPI
-import ayds.winchester2.wikipediadata.data.wikipedia.tracks.WikipediaTrackServiceImpl
+import ayds.winchester2.wikipediaexternal.data.wikipedia.WikipediaTrackService
+import ayds.winchester2.wikipediaexternal.data.wikipedia.tracks.JsonToInfoResolver
+import ayds.winchester2.wikipediaexternal.data.wikipedia.tracks.WikipediaToInfoResolver
+import ayds.winchester2.wikipediaexternal.data.wikipedia.tracks.WikipediaTrackAPI
+import ayds.winchester2.wikipediaexternal.data.wikipedia.tracks.WikipediaTrackServiceImpl
 import retrofit2.Retrofit
 import retrofit2.converter.scalars.ScalarsConverterFactory
 

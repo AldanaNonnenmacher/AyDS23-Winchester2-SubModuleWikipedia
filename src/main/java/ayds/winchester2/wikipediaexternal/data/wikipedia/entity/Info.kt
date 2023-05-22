@@ -1,4 +1,4 @@
-package ayds.winchester2.wikipediadata.data.wikipedia.entity
+package ayds.winchester2.wikipediaexternal.data.wikipedia.entity
 
 data class ArtistInfo(
     var description: String,

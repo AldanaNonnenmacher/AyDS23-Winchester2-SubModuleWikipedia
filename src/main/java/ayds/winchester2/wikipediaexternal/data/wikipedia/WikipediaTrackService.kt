@@ -1,6 +1,6 @@
-package ayds.winchester2.wikipediadata.data.wikipedia
+package ayds.winchester2.wikipediaexternal.data.wikipedia
 
-import ayds.winchester2.wikipediadata.data.wikipedia.entity.ArtistInfo
+import ayds.winchester2.wikipediaexternal.data.wikipedia.entity.ArtistInfo
 
 interface WikipediaTrackService {
     fun getInfo(artistName: String): ArtistInfo?
