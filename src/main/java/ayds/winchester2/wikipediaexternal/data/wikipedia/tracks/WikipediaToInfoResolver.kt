@@ -1,6 +1,6 @@
-package ayds.winchester2.wikipediaexternal.data.wikipedia.tracks
+package ayds.winchester2.wikipediadata.data.wikipedia.tracks
 
-import ayds.winchester2.wikipediaexternal.data.wikipedia.entity.ArtistInfo
+import ayds.winchester2.wikipediadata.data.wikipedia.entity.ArtistInfo
 import com.google.gson.Gson
 import com.google.gson.JsonObject
 

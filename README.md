@@ -11,18 +11,18 @@ With a given artist's name, this library obtains:
 1. Clone this repo into your `path_to_your_android_project/libs/` folder.
 2. Add these lines to your `settings.gradle` file:
 ``` gradle
-include ':wikipediaexternal'
-project(':wikipediaexternal').projectDir = new File('libs/WikipediaExternal')
+include ':wikipediadata'
+project(':wikipediadata').projectDir = new File('libs/WikipediaData')
 ```
 3. Add this line to your `app/build.gradle` file, inside the `dependencies` body:
 ``` gradle
-implementation project(":wikipediaexternal")
+implementation project(":wikipediadata")
 ```
 4. Syncronize gradle files with `Sync now`
 
 ## Usage
 
-Using the `getInfo(artistName: String): ArtistInfo?` from [`WikipediaTrackService`](src/main/java/ayds/winchester2/wikipediaexternal/data/wikipedia/WikipediaTrackService.kt)
+Using the `getInfo(artistName: String): ArtistInfo?` from [`WikipediaTrackService`](src/main/java/ayds/winchester2/wikipediadata/data/wikipedia/WikipediaTrackService.kt)
 ``` kotlin
 val artistInfo = wikipediaTrackService.getInfo(artistName)
 ```

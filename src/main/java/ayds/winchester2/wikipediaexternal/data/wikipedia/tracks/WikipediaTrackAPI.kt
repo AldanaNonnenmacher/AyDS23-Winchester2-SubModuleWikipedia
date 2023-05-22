@@ -1,4 +1,4 @@
-package ayds.winchester2.wikipediaexternal.data.wikipedia.tracks
+package ayds.winchester2.wikipediadata.data.wikipedia.tracks
 
 import retrofit2.Call
 import retrofit2.http.GET
