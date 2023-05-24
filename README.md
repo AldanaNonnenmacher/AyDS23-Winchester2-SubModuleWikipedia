@@ -1,10 +1,17 @@
 # Android Library - From an artist's name to its Wikipedia article
 
+# Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+
+## Description
 This Android library/submodule fetchs an artist data from [Wikipedia's API](https://www.mediawiki.org/wiki/API:Main_page/en)
 
 With a given artist's name, this library obtains:
 - A snippet of the artist fetched
 - An URL to its Wikipedia full article
+- An URL to a [Wikipedia logo](https://upload.wikimedia.org/wikipedia/commons/8/8c/Wikipedia-logo-v2-es.png)
 
 ## Installation
 
@@ -33,5 +40,5 @@ Using the `getInfo(artistName: String): ArtistInfo?` from [`WikipediaTrackServic
 val wikipediaTrackService = WikipediaInjector.wikipediaTrackService
 val artistInfo = wikipediaTrackService.getInfo(artistName)
 ```
-- If `wikipediaTrackService.getInfo(artistName)` finds a matching artist, returns an `ArtistInfo` object with the aformentioned data.
+- If `wikipediaTrackService.getInfo(artistName)` finds a matching artist, returns an `ArtistInfo` object with the aformentioned [data](#description).
 - Otherwise, when there's no matching found/Internet connection, `null` is returned instead.
