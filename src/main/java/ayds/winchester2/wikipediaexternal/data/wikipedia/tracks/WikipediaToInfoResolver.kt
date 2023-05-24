@@ -9,6 +9,7 @@ interface WikipediaToInfoResolver {
 }
 
 private const val WIKIPEDIA_URL_PREFIX = "https://en.wikipedia.org/?curid="
+private const val WIKIPEDIA_LOGO_URL = "https://upload.wikimedia.org/wikipedia/commons/8/8c/Wikipedia-logo-v2-es.png"
 private const val SEARCH = "search"
 private const val SNIPPET = "snippet"
 private const val PAGE_ID = "pageid"
@@ -21,7 +22,8 @@ class JsonToInfoResolver : WikipediaToInfoResolver {
             serviceData?.getFirstItem()?.let { item ->
                 ArtistInfo(
                     item.getSnippet(),
-                    item.getURL()
+                    item.getURL(),
+                    wikipediaLogoURL = WIKIPEDIA_LOGO_URL
                 )
             }
         } catch (e: Exception) {
